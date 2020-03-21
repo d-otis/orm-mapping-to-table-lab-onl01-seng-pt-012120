@@ -22,7 +22,7 @@ class Student
   end
   
   def self.create(hash)
-    binding.pry
+    hash.each {|k, v| self.send("#{k}=", v)}
   end
   
   def self.create_table
