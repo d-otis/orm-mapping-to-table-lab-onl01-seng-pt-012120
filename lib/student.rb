@@ -22,7 +22,7 @@ class Student
   end
   
   def self.create(hash)
-  
+    binding.pry
   end
   
   def self.create_table
