@@ -22,7 +22,6 @@ class Student
   end
   
   def self.create(name:, grade:)
-    binding.pry
     student = Student.new(name, grade)
     student.save
     student
