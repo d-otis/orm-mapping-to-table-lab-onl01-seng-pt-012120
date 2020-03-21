@@ -22,6 +22,7 @@ class Student
   end
   
   def self.create(hash)
+    student = 
     hash.each {|k, v| self.send("#{k}=", v)}
   end
   
